@@ -11,7 +11,7 @@ import csv
 import json
 
 from longling import wf_open
-from longling.lib.candylib import as_list
+from longling.utils.candylib import as_list
 from tqdm import tqdm
 
 

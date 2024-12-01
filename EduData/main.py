@@ -6,7 +6,7 @@ import fire
 from EduData.DataSet.download_data.download_data import get_data, list_resources
 from EduData.Task.KnowledgeTracing.format import tl2json, json2tl
 from EduData.Task.KnowledgeTracing.statistics import analysis_records, analysis_edges
-from longling.ML.toolkit.dataset import train_valid_test, kfold
+from longling.ml.toolkit.dataset import train_valid_test, kfold
 from EduData.DataSet.junyi import extract_relations, build_json_sequence
 from EduData.DataSet.EdNet import build_interactions, select_n_most_active
 from EduData.Task.KnowledgeTracing.graph import dense_graph, transition_graph, correct_transition_graph
